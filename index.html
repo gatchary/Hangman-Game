@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<header class="setBackground divAlign"> <h1>Gatchary Hangman Game</h1> 
+  <!-- <p> rules:
+     <br> 
+     <span>-Play at youre own risk</span>
+     <br>
+     <span>-you are given 5 guess per word</span>
+     <br>
+    <span> -Hang Slowly</span>
+
+   </p>
+  -->
+
+</header>
+
+<div class="divAlign"> <button id="gameStart" class="sButton">click to begin!</button></div>
+
+<div class="divAlign setBackground sButton" >
+    <span class="sButton divAlign">Category: United States Presidents</span>
+     <span claspaceHolderss="sButton divAlign"> PlayerWins:</span>
+    <span id="pwins">0</span>
+   <span class="sButton divAlign">PlayerLosses:</span>
+   <span id="plosses">0</span>
+    
+ </div>
+
+<div class="keys">
+  
+  <div class="key">
+    <kbd id="spaceHolder">_</kb> 
+  </div>
+</div>
+<div class="setBackground sButton divAlign"><span>number of guess remain:</span> <span id="guessesLeftHolder"></span></div>
+<div class="setBackground sButton divAlign"><span> Leters already Guessed</span><br>
+  <span id="letterGuessedHolder">_</span>
+</div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
